@@ -1,0 +1,9 @@
+if game.GameId == "8737899170" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RSenix3/PS99/main/SCRIPTS"))()
+    print("Script Executed Because Its On The First World!")
+elseif game.GameId == "16498369169" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RSenix3/PS99/main/TechScript"))()
+    print("Script Executed Because Its On Tech World!")
+else
+    print("This script is not intended for this game.")
+end
